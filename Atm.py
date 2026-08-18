@@ -4,9 +4,9 @@ import mysql.connector as sql
 from datetime import datetime
 dtime=datetime.now()
 database=sql.connect(
-     host="dbhost",
-     user="dbroot",
-     password="dbpasswaord",
+     host="localhost",
+     user="root",
+     password="Sahilscg9",
      database="atm_management")
 
 cursor=database.cursor()
@@ -192,7 +192,7 @@ def main(Accountnum):
      print("            Accountno=",Accountnum)
      print("\n")
      print("                         1. DEPOSIT                       2. TRANSFER       ")
-     print("                        3. PIN CAHNGE                   4. CASH WITHDRAWL ")
+     print("                        3. PIN CAHNGE                   4. CASH WITHDRAWAL ")
      print("                         5. BALANCE INQUARY               6. MINI STATEMENT")
      print("\n")
      print("                                       7.EXIT                                                 ")
