@@ -4,9 +4,9 @@ import mysql.connector as sql
 from datetime import datetime
 dtime=datetime.now()
 database=sql.connect(
-     host="localhost",
-     user="root",
-     password="Sahilscg9",
+     host="dbhost",
+     user="dbroot",
+     password="dbpasswaord",
      database="atm_management")
 
 cursor=database.cursor()
