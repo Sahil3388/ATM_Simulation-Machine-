@@ -31,10 +31,10 @@ A Python and MySQL-based ATM Management System that simulates real-world banking
 ![PinChange](OutputScreenShort/Pinchange.png)
 
 ### Balance Inquery
-![Balanceinqery](OutputScreenShort/Balanceinquery.png)
+![Balanceinqery](OutputScreenShort/BalanceInquery.png)
 
 ### Main Display
-![MainDisplay](OutputScreenShort/MainDislay.png)
+![MainDisplay](OutputScreenShort/MainDisplay.png)
 
 ### sql details table
 ![Details table](OutputScreenShort/Detailstable.png)
